@@ -7,9 +7,9 @@ interface TextContentProps {
 
 const TextContent = ({ purple, paragraph }: TextContentProps) => {
   return (
-    <div className=" bg-[#1B1937] flex flex-col gap-10 p-8 rounded-b-lg">
-      <div className=" flex text-center flex-col justify-center items-center gap-4">
-        <h1 className=" text-white font-bold font-['Inter'] leading-loose text-[28px]">
+    <div className=" bg-[#1B1937] flex flex-col gap-10 p-8 rounded-b-lg lg:p-[72px] lg:rounded-lg ">
+      <div className=" flex text-center flex-col justify-center items-center gap-4 lg:text-uppercase lg:text-left ">
+        <h1 className=" text-white font-bold font-['Inter'] leading-loose text-[28px] lg:text-4xl">
           Get{" "}
           <span className=" text-[#AB5CDB] font-['Inter'] text-[28px]">
             {purple}
@@ -20,7 +20,7 @@ const TextContent = ({ purple, paragraph }: TextContentProps) => {
           {paragraph}
         </p>
       </div>
-      <div className="flex flex-col items-center gap-6">
+      <div className="flex flex-col items-center gap-6 lg:flex-row lg:gap-[63.5px]">
         {data.map((item) => {
           return (
             <div className="text-center">

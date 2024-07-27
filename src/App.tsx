@@ -3,7 +3,7 @@ import TextContent from "./components/TextContent";
 
 const App = () => {
   return (
-    <main className="w-[327px]">
+    <main className="w-[327px] lg:flex lg:flex-row-reverse lg:w-[1110px]">
       <Image />
       <TextContent
         purple=" insights"
