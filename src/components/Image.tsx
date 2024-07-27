@@ -1,5 +1,7 @@
+import image from "../assets/image.svg";
+
 const Image = () => {
-  return <img src="./src/assets/Bitmap(1).svg" alt="" />;
+  return <img src={image} alt="image" />;
 };
 
 export default Image;

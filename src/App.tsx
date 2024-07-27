@@ -3,7 +3,7 @@ import TextContent from "./components/TextContent";
 
 const App = () => {
   return (
-    <main>
+    <main className="w-[327px]">
       <Image />
       <TextContent
         purple=" insights"
