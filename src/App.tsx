@@ -1,5 +1,10 @@
+import Image from "./components/Image";
 const App = () => {
-  return <div>App</div>;
+  return (
+    <main>
+      <Image />
+    </main>
+  );
 };
 
 export default App;
