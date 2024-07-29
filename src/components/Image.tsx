@@ -4,7 +4,7 @@ const Image = () => {
   return (
     <>
       <img className="lg:hidden" src={image} alt="image" />
-      <img className="hidden lg:block" src={desktopImg} alt="image" />
+      <img className="hidden lg:block -z-10" src={desktopImg} alt="image" />
     </>
   );
 };

@@ -11,7 +11,7 @@ const TextContent = ({ purple, paragraph }: TextContentProps) => {
       <div className=" flex text-center flex-col justify-center items-center gap-4 lg:text-uppercase lg:text-left ">
         <h1 className=" text-white font-bold font-['Inter'] leading-loose text-[28px] lg:text-4xl">
           Get{" "}
-          <span className=" text-[#AB5CDB] font-['Inter'] text-[28px]">
+          <span className=" text-[#AB5CDB] font-['Inter'] text-[28px]  lg:text-4xl">
             {purple}
           </span>{" "}
           that help your business grow.
